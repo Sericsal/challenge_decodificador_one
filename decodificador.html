@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>  
+
+</head>
+<body>
+        <header>
+            <div class="caixa">
+                <img src="logo_alura_matrix.jpg" alt="logo da alura com a inicial da letra a">
+                <h1 class="titulosite">Decodificador</h1>
+            </div>
+        </header>
+
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto"></textarea>   
+                <div>
+                    <h6 class="informacao"><span class="iconify" data-icon="ant-design:exclamation-circle-filled"></span>Apenas letras maiúsculas e minúsculas sem acento.</h6>
+                </div>
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="desencriptar" onclick="btnDescriptar()">Descriptografar</button>
+                </div>          
+            </section>
+                        
+            <section>
+                <textarea class="mensagem" cols="18" rows="8" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <div class="botao">
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="aluno">Ricardo Sampaio
+                <br>sericsal@hotmail.com</br>
+                    <a href="https://www.linkedin.com/in/sergio-sampaio-23b07214/">Meu LinkedIn</a>
+            </p>
+        </footer>
+
+     <script src="script.js"></script>
+     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+</body>
+</html>
